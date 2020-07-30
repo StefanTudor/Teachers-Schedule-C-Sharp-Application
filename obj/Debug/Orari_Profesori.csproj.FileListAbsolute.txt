@@ -1,0 +1,14 @@
+C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\bin\Debug\Orari_Profesori.exe.config
+C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\bin\Debug\Orari_Profesori.exe
+C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\bin\Debug\Orari_Profesori.pdb
+C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\obj\Debug\Orari_Profesori.csprojAssemblyReference.cache
+C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\obj\Debug\Orari_Profesori.Adauga.resources
+C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\obj\Debug\Orari_Profesori.Login.resources
+C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\obj\Debug\Orari_Profesori.MeniuPrincipal.resources
+C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\obj\Debug\Orari_Profesori.Grafic.resources
+C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\obj\Debug\Orari_Profesori.PieChart.resources
+C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\obj\Debug\Orari_Profesori.Properties.Resources.resources
+C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\obj\Debug\Orari_Profesori.csproj.GenerateResource.cache
+C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\obj\Debug\Orari_Profesori.csproj.CoreCompileInputs.cache
+C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\obj\Debug\Orari_Profesori.exe
+C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\obj\Debug\Orari_Profesori.pdb

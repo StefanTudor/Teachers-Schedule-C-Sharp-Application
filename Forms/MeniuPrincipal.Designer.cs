@@ -40,6 +40,7 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.salveazaPeDesktopToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inchideAplicatiaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -92,14 +93,14 @@
             // printeazaToolStripMenuItem
             // 
             this.printeazaToolStripMenuItem.Name = "printeazaToolStripMenuItem";
-            this.printeazaToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.printeazaToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.printeazaToolStripMenuItem.Text = "&Printeaza";
             this.printeazaToolStripMenuItem.Click += new System.EventHandler(this.printeazaToolStripMenuItem_Click);
             // 
             // graficActivitatiToolStripMenuItem
             // 
             this.graficActivitatiToolStripMenuItem.Name = "graficActivitatiToolStripMenuItem";
-            this.graficActivitatiToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.graficActivitatiToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.graficActivitatiToolStripMenuItem.Text = "&Grafic activitati";
             this.graficActivitatiToolStripMenuItem.Click += new System.EventHandler(this.graficActivitatiToolStripMenuItem_Click);
             // 
@@ -118,6 +119,7 @@
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.ContextMenuStrip = this.contextMenuStrip1;
+            this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.panel2);
@@ -137,7 +139,7 @@
             this.salveazaPeDesktopToolStripMenuItem,
             this.inchideAplicatiaToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(217, 80);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(217, 52);
             // 
             // salveazaPeDesktopToolStripMenuItem
             // 
@@ -152,6 +154,21 @@
             this.inchideAplicatiaToolStripMenuItem.Size = new System.Drawing.Size(216, 24);
             this.inchideAplicatiaToolStripMenuItem.Text = "&Inchide aplicatia";
             this.inchideAplicatiaToolStripMenuItem.Click += new System.EventHandler(this.inchideAplicatiaToolStripMenuItem_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.Black;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Enabled = false;
+            this.textBox1.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.textBox1.Location = new System.Drawing.Point(647, 18);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(159, 54);
+            this.textBox1.TabIndex = 12;
+            this.textBox1.Text = "Drag and Drop on activity to delete.";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // comboBox1
             // 
@@ -282,5 +299,6 @@
         private System.Windows.Forms.ToolStripMenuItem salveazaPeDesktopToolStripMenuItem;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

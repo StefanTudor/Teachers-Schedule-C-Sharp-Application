@@ -18,9 +18,8 @@ namespace Orari_Profesori
         List<Activitate> activitati = new List<Activitate>();
         TreeNode node;
         TreeView tree;
-        int id_profesor_curent;
         const string ConnString =
-               @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\Orari_Profesori.mdb";
+               @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=../../Orari_Profesori.mdb";
         const string ProviderName = "System.Data.OleDb";
 
         DbProviderFactory factory =
@@ -214,7 +213,7 @@ namespace Orari_Profesori
                 string[] s = item.ToString().Replace(" ",string.Empty).Split(':','|','(',')');
                 MessageBox.Show("Șters!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 const string ConnString =
-               @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\Orari_Profesori.mdb";
+               @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=../../Orari_Profesori.mdb";
                 const string ProviderName = "System.Data.OleDb";
 
                 DbProviderFactory factory =
@@ -313,7 +312,7 @@ namespace Orari_Profesori
         private void salveazaPeDesktopToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            File.WriteAllText(@"C:\Users\tudor\Desktop\orar.txt", getTreeText());
+            File.WriteAllText(@"C:\Users\*\Desktop\orar.txt", getTreeText());
         }
 
         private void button2_Click(object sender, EventArgs e)

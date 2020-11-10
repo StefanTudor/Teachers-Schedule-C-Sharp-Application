@@ -139,15 +139,5 @@ namespace Orari_Profesori.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap statistics_jpeg {
-            get {
-                object obj = ResourceManager.GetObject("statistics.jpeg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

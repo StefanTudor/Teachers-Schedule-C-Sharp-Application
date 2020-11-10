@@ -20,7 +20,7 @@ namespace Orari_Profesori
             InitializeComponent();
 
             const string ConnString =
-               @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\tudor\Desktop\Orari_Profesori\Orari_Profesori\Orari_Profesori.mdb";
+               @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=../../Orari_Profesori.mdb";
             const string ProviderName = "System.Data.OleDb";
 
             DbProviderFactory factory =
